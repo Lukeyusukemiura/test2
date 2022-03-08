@@ -1,6 +1,17 @@
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+import HeaderAll from "@/components/HeaderAll.vue";
+</script>
+
 <template>
-  <div class="about">
-    <h1 class="underline">This is an about page</h1>
-  </div>
+  <HeaderAll />
+   <body class="box sm:bg-yellow-500">This is an explanation page
+  </body>
 </template>
 
+<style>
+.box{
+  height: 100vh;
+  width: 100%;
+}
+</style>
