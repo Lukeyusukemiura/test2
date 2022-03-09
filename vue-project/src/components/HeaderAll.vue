@@ -2,7 +2,7 @@
 <template>
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
  
-  <header class="flex px-4 py-4 bg-gray-400 items-center justify-between">
+  <div class="flex px-4 py-4 bg-gray-400 items-center justify-between">
     <div class="px-2 font-bold text-2xl">CODE-TYPING</div>
     <div class="px-2 flex items-center">
       <RouterLink class="px-2" to="/">ホーム画面</RouterLink>
@@ -14,5 +14,5 @@
       <p class="pl-2" >BGMを選んでください </p>
       <img class="h-6" src="../image/head.png">
     </div>
-  </header>
+  </div>
 </template>
