@@ -2,7 +2,7 @@
 <template>
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
  
-  <header class="flex px-4 py-4 bg-gray-400 items-center justify-between">
+  <div class="flex px-4 py-4 bg-gray-400 items-center justify-between">
     <div class="px-2 font-bold text-2xl">CODE-TYPING</div>
     <div class="px-2 flex items-center">
       <RouterLink class="px-2" to="/">ホーム画面</RouterLink>
@@ -10,9 +10,9 @@
       <RouterLink class="px-2" to="/game">ゲーム画面</RouterLink>
       <RouterLink class="px-2" to="/result">結果画面</RouterLink>
       <p class="pl-3" >VOL </p>
-      <img class="pr-4 h-6" src="../image/vol1.png">
+      <img class="pr-4 h-6" src="../image/vol.png">
       <p class="pl-2" >BGMを選んでください </p>
-      <img class="h-6" src="../image/head.png">
+      <img class="h-6" src="../image/hea.png">
     </div>
-  </header>
+  </div>
 </template>
