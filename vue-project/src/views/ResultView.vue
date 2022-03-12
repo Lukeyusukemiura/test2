@@ -16,11 +16,11 @@ import HeaderAll from "@/components/HeaderAll.vue";
 
     <!--「時間」「ミスタイプ」「苦手キー」の箱-->
     <div class="pt-5 flex items-center justify-center">
-      <div class="resultbox text-center">
-        <p class="text-2xl">時間: 3.23</p>
-        <p class="text-2xl">ミスタイプ数：</p>
-        <p class="text-2xl">苦手キー:</p>
-      </div>
+      <ol class="resultbox text-center">
+        <li class="text-2xl">時間: 3.23</li>
+        <li class="text-2xl">ミスタイプ数：</li>
+        <li class="text-2xl">苦手キー:</li>
+      </ol>
     </div>
 
     <!--ツイッターでシェアの箱-->
@@ -31,7 +31,7 @@ import HeaderAll from "@/components/HeaderAll.vue";
     <!--「メインに戻る」と「リスタート」のボタンを格納-->
     <div class="pt-20 pb-20 flex items-center justify-center">
       <div class="flex buttonbox justify-around">
-        <a href="#" class="inline-block px-20 py-3 rounded-lg shadow-lg bg-indigo-700 text-white">メインに戻る</a>
+        <RouterLink class="inline-block px-20 py-3 rounded-lg shadow-lg bg-indigo-700 text-white" to="/">メインに戻る</RouterLink>
         <a href="#" class="inline-block px-20 py-3 rounded-lg shadow-lg bg-gray-600 text-white">リスタート</a>
       </div>
     </div>
@@ -41,20 +41,20 @@ import HeaderAll from "@/components/HeaderAll.vue";
 
 <style>
 .box{
-  height: 100vh;
+  height:91.7vh;
   width: 100%;
 }
 
 .resultbox{
-  width: 250px
+  width: 250px;
 }
 
 .twitterbox{
-  width:350px
+  width:350px;
 }
 
 .buttonbox{
-  width:800px
+  width:800px;
 }
 </style>
 

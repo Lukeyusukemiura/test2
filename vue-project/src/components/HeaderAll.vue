@@ -10,9 +10,9 @@
       <RouterLink class="px-2" to="/game">ゲーム画面</RouterLink>
       <RouterLink class="px-2" to="/result">結果画面</RouterLink>
       <p class="pl-3" >VOL </p>
-      <img class="pr-4 h-6" src="../image/vol1.png">
+      <img class="pr-4 h-6" src="../image/vol.png">
       <p class="pl-2" >BGMを選んでください </p>
-      <img class="h-6" src="../image/head.png">
+      <img class="h-6" src="../image/hea.png">
     </div>
   </div>
 </template>
